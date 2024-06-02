@@ -6,8 +6,8 @@
 #include <unordered_map>
 
 struct SharedState {
-    std::string type_; // e.g., strength, agility, intelligence
-    std::string role_; // e.g., carry, support, initiator
+    std::string type_;
+    std::string role_;
 
     SharedState(const std::string& type, const std::string& role)
         : type_(type), role_(role) {}

@@ -127,6 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BEHAVIORAL\TemplateMethod.h" />
+    <ClCompile Include="BEHAVIORAL\Visitior.h" />
     <ClCompile Include="CREATIONAL\AbstractFactory.cpp" />
     <ClCompile Include="CREATIONAL\Builder.cpp" />
     <ClCompile Include="CREATIONAL\FactoryMethod.cpp" />
@@ -136,6 +138,14 @@
     <ClCompile Include="STRUCTURAL\Adapter.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BEHAVIORAL\ChainOfResponsibility.h" />
+    <ClInclude Include="BEHAVIORAL\Command.h" />
+    <ClInclude Include="BEHAVIORAL\Iterator.h" />
+    <ClInclude Include="BEHAVIORAL\Mediator.h" />
+    <ClInclude Include="BEHAVIORAL\Memento.h" />
+    <ClInclude Include="BEHAVIORAL\Observer.h" />
+    <ClInclude Include="BEHAVIORAL\State.h" />
+    <ClInclude Include="BEHAVIORAL\Strategy.h" />
     <ClInclude Include="CREATIONAL\AbstractFactory.h" />
     <ClInclude Include="CREATIONAL\Builder.h" />
     <ClInclude Include="CREATIONAL\FactoryMethod.h" />

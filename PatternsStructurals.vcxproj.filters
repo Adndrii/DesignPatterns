@@ -39,6 +39,12 @@
     <ClCompile Include="STRUCTURAL\Adapter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="BEHAVIORAL\TemplateMethod.h">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BEHAVIORAL\Visitior.h">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CREATIONAL\AbstractFactory.h">
@@ -75,6 +81,30 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="STRUCTURAL\Proxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BEHAVIORAL\ChainOfResponsibility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BEHAVIORAL\Command.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BEHAVIORAL\Iterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BEHAVIORAL\Mediator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BEHAVIORAL\Memento.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BEHAVIORAL\Observer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BEHAVIORAL\State.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BEHAVIORAL\Strategy.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

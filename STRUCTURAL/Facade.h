@@ -15,7 +15,6 @@ public:
     }
 };
 
-// Subsystem representing Dota 2 item shop
 class ItemShop {
 public:
     std::string BuyItem() const {
@@ -27,7 +26,6 @@ public:
     }
 };
 
-// Facade class providing a simple interface to Dota 2 subsystems
 class Dota2Facade {
 private:
     HeroSelection* heroSelection_;
